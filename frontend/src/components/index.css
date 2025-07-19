@@ -1,0 +1,75 @@
+/* Sidebar container - fixed and unmovable */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* full viewport height */
+  background-color: #1e293b;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  /* width is not explicitly set, so it adapts naturally */
+  z-index: 1000; /* ensures it stays above body content */
+}
+
+/* To prevent the main content from going under the fixed sidebar,
+   add margin-left equal or slightly more than sidebar's width to the main container */
+main, .main-content {
+  margin-left: 260px; /* or whatever width your sidebar naturally takes */
+}
+
+
+/* Menu list */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Sidebar links */
+.sidebar-link {
+  display: block;
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: #334155;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: #2563eb;
+  color: white;
+  transform: translateX(6px);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4);
+}
+
+/* Logout section */
+.sidebar-logout {
+  border-top: 1px solid #475569;
+  padding-top: 1.5rem;
+}
+
+.logout-button {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #b91c1c;
+}

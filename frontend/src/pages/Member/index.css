@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.member-dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  background-color: #2e3b4e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+/* Wrap menu and logout in vertical layout */
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Menu stays at the top */
+.sidebar-menu {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Logout button at bottom */
+.logout-button {
+  margin-top: auto;
+  background: none;
+  border: none;
+  color: #f8d775;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+/* Link styling */
+.sidebar-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.welcome-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.welcome-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.welcome-card blockquote {
+  font-style: italic;
+  color: #4a4a4a;
+  margin-top: 1rem;
+  border-left: 4px solid #90caf9;
+  padding-left: 1rem;
+}
