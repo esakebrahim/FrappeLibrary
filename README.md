@@ -27,14 +27,11 @@ http://library.local:8000
       ```bash
      cd frontend
 
-2.  Install dependencies:
+2.  Install dependencies and start development server:
      ```bash
      npm install
-
-3.  Start the development server:
-         ```bash
-           npm start
-
+     npm start
+     
 Access the frontend:
 http://library.local:3000
 
@@ -74,3 +71,10 @@ US-10	✅ Fully custom React frontend (no Frappe Desk used)
 📩 Emails are sent via default SMTP and may require config depending on environment.
 
 📆 Validation could be improved for return dates (future enhancement).
+
+
+    ```bash
+     Email= esak08781@gmail.com   password= rG4YjEH3FR  for Member Login
+     Email= Administrator   password= Esak@123 for Admin Login
+     Email= esak8737@gmail.com   password= Esak@098  for Librarian Login
+
