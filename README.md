@@ -16,27 +16,27 @@ This is my submission for the 360Ground Full-Stack Coding Challenge. The system 
    bench --site library.local install-app library_app
 
 3.   Start the server:
-    ```bash
-   bench start
+       ```bash
+      bench start
 
 4.  Access the backend:
 http://library.local:8000
 
   Frontend (React)
 1.  Navigate to the frontend folder:
-    ```bash
-cd frontend
+      ```bash
+     cd frontend
 
 2.  Install dependencies:
-    ```bash
-npm install
+     ```bash
+     npm install
 
-Start the development server:
-   ```bash
- npm run dev
+3.  Start the development server:
+         ```bash
+           npm start
 
 Access the frontend:
-http://localhost:3000
+http://library.local:3000
 
 
 
