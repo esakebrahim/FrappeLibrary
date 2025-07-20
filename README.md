@@ -63,15 +63,7 @@ US-08	✅ REST API for all operations (books, members, loans, reservations)
 US-09	✅ Role-based access (Admin, Librarian, Member)
 US-10	✅ Fully custom React frontend (no Frappe Desk used)
 
-🧪 Known Issues / Trade-Offs
-
-
-⚠️ No test coverage (due to short time window).
-
-📩 Emails are sent via default SMTP and may require config depending on environment.
-
-📆 Validation could be improved for return dates (future enhancement).
-
+LOGIN EMAIL AND PASSWORD 
 
     ```bash
      Email= esak08781@gmail.com   password= rG4YjEH3FR  for Member Login
